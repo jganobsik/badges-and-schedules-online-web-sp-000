@@ -17,7 +17,7 @@ def assign_rooms(speakers)
   room_counter = 1 
   speaker_index = 0 
   room_assignments = []
-  7.times do 
+  speakers.each_with_index  do 
     room_assignments.push("Hello, #{speakers[speaker_index]}! You'll be assigned to room #{room_counter}!")
     room_counter += 1 
     speaker_index +=1 
