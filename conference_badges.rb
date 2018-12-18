@@ -20,7 +20,7 @@ def assign_rooms(speakers)
     room_string = room_counter.to_s
     speakers[speaker] = index
 
-    room_assignments.push("Hello, #{speakers}! You'll be assigned to room #{room_counter}!")
+    room_assignments.push("Hello, #{speaker}! You'll be assigned to room #{room_counter}!")
     room_counter += 1 
   end
   return room_assignments
