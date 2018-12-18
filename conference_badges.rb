@@ -29,7 +29,7 @@ end
     
     def printer(attendees, speaker)
       badges = batch_badge_creator(attendees)
-      rooms = assign_rooms(speakers)
+      rooms = assign_rooms(speaker)
       
       badges.each{|badge|
       puts badge}
