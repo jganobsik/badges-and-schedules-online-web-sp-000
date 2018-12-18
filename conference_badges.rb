@@ -28,8 +28,8 @@ end
     
     
     def printer()
-      badges = batch_badge_creator(attendees)
-      rooms = assign_rooms(speaker)
+      badges = batch_badge_creator()
+      rooms = assign_rooms()
       
       badges.each{|badge|
       puts badge}
