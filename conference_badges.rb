@@ -12,3 +12,9 @@ def batch_badge_creator(array)
   }
   return badge_array
 end
+
+def assign_rooms(speakers)
+  room_counter = 1 
+  
+  7.times do 
+    
